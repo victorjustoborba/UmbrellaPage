@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap" rel="stylesheet">
+    <link type="image/png" sizes="16x16" rel="icon" href="images/icons8-umbrella-16-fav.png">
+
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click",function(){
+                if (document.querySelector(".menu_bar nav ul").style.display == 'flex'){
+                    document.querySelector(".menu_bar nav ul").style.display = 'none';    
+                }
+                else {
+                    document.querySelector(".menu_bar nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+
+    <title>Umbrella</title>
+</head>
+<body>
+    <header>
+        <div class="menu_bar">
+            <div class="logo"> <img src="images/icons8-umbrella-50.png" alt=""> Umbrella.
+            </div>
+            <nav>
+                <div class="menuMobile">
+                    <div class="mm_line"></div>
+                    <div class="mm_line"></div>
+                    <div class="mm_line"></div>
+                </div>
+                <ul class="ul_menu">
+                    <li class="li_menu"><a href="">HOME</a></li>
+                    <li class="li_menu"><a href="">FEATURES</a></li>
+                    <li class="li_menu"><a href="">GALLERY</a></li>
+                    <li class="li_menu"><a href="">ABOUT</a></li>
+                    <li class="li_menu"><a href="">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div>
+            <h1>Introducing <strong>Umbrella.</strong>  </h1>
+            <h2>Made to modify and use anywhere</h2>
+            <ul>
+                <li>Sed ut persoiciatis unde omnis</li>
+                <li>Iste natus error sit voluptatem accusantium</li>
+                <li>Doloremque kaudantium</li>
+            </ul>
+            <div class="buttons">
+                <div> <a href=""><img src="images/icons8-download-da-nuvem-32.png" alt=""></a> Download 
+                </div>
+                <div> <a href=""><img src="images/icons8-visível-32.png" alt=""> </a>View Gallery 
+                </div>
+            </div>
+            
+        </div>
+        <div>
+            <img src="images/Mão Segurando Celular PNG Sem Fundo Transparente.png" alt="" class="cell_img">
+        </div>
+    </div>
+         
+</body>
+    
+    
+</html>
